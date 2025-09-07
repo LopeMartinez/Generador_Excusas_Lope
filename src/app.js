@@ -15,9 +15,12 @@ window.onload = function() {
 
 
   function getRandom(array){
-  return array
+  return array[Math.floor(Math random() * array.length)]
   }
 
+  let randomExcuse = getRandom(who) + " " + getRandom(action) + " " + getRandom(object) + " " + getRandom(when) + . +
+
+    let excuseDiv = document.getElementById("excuse")
   
-  console.log("Hello Rigo from the console!");
+  console.log(excuse.Div);
 };
